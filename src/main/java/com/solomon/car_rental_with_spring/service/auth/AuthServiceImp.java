@@ -24,10 +24,7 @@ public class AuthServiceImp implements AuthService{
         User createdUser = userRepository.save(user);
         UserDto userDto = new UserDto();
         userDto.setId(createdUser.getId());
-
         return userDto;
-
-
     }
 
     @Override

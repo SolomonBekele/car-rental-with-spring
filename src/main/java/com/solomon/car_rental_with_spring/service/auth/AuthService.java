@@ -5,7 +5,5 @@ import com.solomon.car_rental_with_spring.dto.UserDto;
 
 public interface AuthService {
     UserDto createdCustomer(SignUpRequest signUpRequest);
-
-
     boolean hasCustomerWithEmail(String email);
 }
